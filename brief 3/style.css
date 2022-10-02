@@ -54,13 +54,14 @@ div {
   border: 3px solid rgb(255, 252, 57);
   border-radius: 9px;
   width: 450px;
-  height: 420px;
+  height: 400px;
   margin: 20px;
   margin-left: 30px;
 }
 h3 {
   color: white;
   margin-left: 80px;
+  margin-top: 8px;
 }
 
 .imageVideo {
@@ -162,7 +163,7 @@ Footer{
       display: flex;
     }
     .box {
-      border: 3px solid rgb(255, 94, 0);
+      border: 3px solid rgb(255, 255, 255);
       border-radius: 9px;
       width: 450px;
       height: 200px;
@@ -170,20 +171,20 @@ Footer{
       margin-left: 30px;
     }
     .imageVideo {
-      height: 150px;
+      height: 170px;
       width: 100%;
-      border-radius: 9px;
+      border-radius: 5px;
     } 
     
     h3 {
-      color: rgb(255, 255, 255);
-      margin-left: 10px;
+      color: rgb(255, 251, 0);
+      margin-left: 33px;
       font-size: 10px;
-      margin-top: -1px;
+      margin-top: 3px;
     }
 
     Footer{
-      color:white;
+      color:rgb(255, 255, 255);
       margin-left: 230px;
       margin-top: 230px;
       
