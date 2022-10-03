@@ -12,12 +12,13 @@ header {
   margin-left: 80px;
   margin-top: -20px;
 }
-ul,a {
+ul,
+a {
   display: flex;
   color: rgb(253, 228, 2);
   text-decoration: none; /* remove the ligne */
   list-style: none; /* remove the style */
-  margin-left: 500px;
+  margin-left: 300px;
   margin-top: 20px;
 }
 
@@ -76,25 +77,24 @@ section {
   margin: 0px 20px;
 }
 
-Footer{
+Footer {
   color: white;
-  margin-left: 520px;
-  margin-top: 500px;
-
+  margin-left: 470px;
+  margin-top: 450px;
 }
 
 /* responsive styles */
-
 @media screen and (max-width: 1024px) {
-  ul,a {
+  ul,
+  a {
     display: flex;
     color: rgb(253, 228, 2);
     text-decoration: none; /* remove the ligne */
     list-style: none; /* remove the style */
-    margin-left: 350px;
+    margin-left: 90px;
   }
 
-  a{
+  a {
     margin-left: 25px;
   }
 
@@ -108,7 +108,7 @@ Footer{
     display: flex;
   }
   .box {
-    border: 3px solid rgb(255, 252, 57);
+    border: 3px solid rgb(255, 255, 255);
     border-radius: 13px;
     width: 400px;
     height: 300px;
@@ -121,78 +121,291 @@ Footer{
     margin-left: 50px;
     font-size: 15px;
   }
-  
+
   .imageVideo {
     height: 250px;
     width: 100%;
     border-radius: 9px;
-  } 
+  }
 
-  Footer{
-  color:yellow;
-  margin-left: 350px;
-  margin-top: 360px;
-  
+  Footer {
+    color: yellow;
+    margin-left: 350px;
+    margin-top: 360px;
+  }
 }
 
+@media screen and (max-width: 768px) {
+  ul,
+  a {
+    display: flex;
+    color: rgb(255, 187, 0);
+    text-decoration: none; 
+    list-style: none; 
+    margin-left: -150px;
   }
-  
-  @media screen and (max-width: 768px)  {
-    ul,a {
-      display: flex;
-      color: rgb(255, 187, 0);
-      text-decoration: none; /* remove the ligne */
-      list-style: none; /* remove the style */
-      margin-left: 10px;
-    }
-    a{
-      margin-left: 30px;
-    }
-    a:hover {
-      background-color: rgb(251, 255, 0);
-      color: rgb(0, 0, 0);
-      border-radius: 2px;
-    }
-
-    h1 {
-      color: rgb(255, 0, 0);
-      margin-left: 270px;
-    }
-    .container {
-      width: 100%;
-      display: flex;
-    }
-    .box {
-      border: 3px solid rgb(255, 255, 255);
-      border-radius: 9px;
-      width: 450px;
-      height: 200px;
-      margin: 20px;
-      margin-left: 30px;
-    }
-    .imageVideo {
-      height: 170px;
-      width: 100%;
-      border-radius: 5px;
-    } 
-    
-    h3 {
-      color: rgb(255, 251, 0);
-      margin-left: 33px;
-      font-size: 10px;
-      margin-top: 3px;
-    }
-
-    Footer{
-      color:rgb(255, 255, 255);
-      margin-left: 230px;
-      margin-top: 230px;
-      
-    }
-    .paragraphe {
-      color: white;
-      margin-left: 100px;
-    }
+  a {
+    margin-left: 30px;
   }
- 
+  a:hover {
+    background-color: rgb(251, 255, 0);
+    color: rgb(0, 0, 0);
+    border-radius: 2px;
+  }
 
+  h1 {
+    color: rgb(255, 0, 0);
+    margin-left: 270px;
+  }
+  .container {
+    width: 100%;
+    display: flex;
+  }
+  .box {
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 9px;
+    width: 450px;
+    height: 200px;
+    margin: 20px;
+    margin-left: 30px;
+  }
+  .imageVideo {
+    height: 170px;
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  h3 {
+    color: rgb(255, 251, 0);
+    margin-left: 33px;
+    font-size: 10px;
+    margin-top: 3px;
+  }
+
+  Footer {
+    color: rgb(255, 255, 255);
+    margin-left: 230px;
+    margin-top: 230px;
+  }
+  .paragraphe {
+    color: white;
+    margin-left: 10px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 426px){
+  ul, a {
+    display: flex;
+    color: rgb(255, 255, 255);
+    text-decoration: none; 
+    list-style: none; 
+    margin-top: 60px;
+    margin-left: -240px;  
+  }
+  a {
+    margin-left: 30px;
+  } 
+   a:hover {
+    background-color: rgb(255, 136, 0);
+    color: rgb(0, 0, 0);
+    border-radius: 2px;
+  }
+  .logo {
+    margin-left: 150px;
+    margin-top: -10px;
+    width: 100px;
+    height: 100px;
+  }
+  h1 {
+    color: rgb(255, 0, 0);
+    margin-left: 100px;
+  }
+   ol {
+    display: flex;
+    list-style: none;
+    margin-left: 10px;
+  }
+  a {
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 13px;
+  } 
+  .paragraphe {
+    color: white;
+    margin-left:20px;
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  .container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .box {
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 9px;
+    width: 300px;
+    height: 320px;
+    margin: 20px;
+    margin-left: 50px;
+  }
+  .imageVideo {
+    height: 290px;
+    width: 100%;
+    border-radius: 5px;
+   }
+
+  h3 {
+    color: rgb(255, 251, 0);
+    margin-left: 33px;
+    font-size: 10px;
+    margin-top: 0px;
+  }
+  Footer {
+    color: rgb(255, 255, 255);
+    margin-left: 100px;
+    margin-top: 1400px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 376px){
+  ul, a {
+    display: flex;
+    color: rgb(249, 248, 248);
+    text-decoration: none; 
+    list-style: none; 
+    margin-top: 50px;
+    margin-left: -250px;
+    font-size: 13px;
+  }
+  a {
+    margin-left: 15px;
+  } 
+   a:hover {
+    background-color: rgb(255, 136, 0);
+    color: rgb(0, 0, 0);
+    border-radius: 2px;
+  }
+  .logo {
+    margin-left: 140px;
+    margin-top: -20px;
+  }
+  h1 {
+    color: rgb(255, 0, 0);
+    margin-left: 70px;
+  }
+   ol {
+    display: flex;
+    list-style: none;
+    margin-left: 10px;
+  }
+  a {
+    margin-left: 13px;
+    margin-top: 15px;
+    font-size: 13px;
+  } 
+  .paragraphe {
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 9px;
+  }
+  .container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .box {
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 9px;
+    width: 200px;
+    height: 230px;
+    margin: 20px;
+    margin-left: 70px;
+  }
+  .imageVideo {
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+   }
+
+  h3 {
+    color: rgb(255, 251, 0);
+    margin-left: 33px;
+    font-size: 10px;
+    margin-top: 0px;
+  }
+  Footer {
+    color: rgb(255, 255, 255);
+    margin-left: 80px;
+    margin-top: 1050px;
+    font-size: 12px;
+  }
+} 
+@media screen and (max-width: 320px){
+  ul, a {
+    display: flex;
+    color: rgb(255, 123, 0); 
+     text-decoration: none; 
+     list-style: none; 
+     margin-top: 85px;
+    margin-left: -240px;
+    font-size: 12px;
+  } 
+   a {
+    margin-left: 15px;
+  }
+  .logo {
+    margin-left: 120px;
+    margin-top: 0px;
+  }
+  h1 {
+    color: rgb(255, 0, 0);
+    margin-left: 40px;
+  }
+  ol {
+    display: flex;
+    list-style: none;
+    margin-left: 30px;
+  }
+  a {
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+  .paragraphe {
+    color: white;
+    margin-left: 0px;
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  .container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .box {
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 9px;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    margin-left: 45px;
+  }
+  .imageVideo {
+    height: 175px;
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  h3 {
+    color: rgb(255, 251, 0);
+    margin-left: 33px;
+    font-size: 10px;
+    margin-top: 0px;
+  }
+  Footer {
+    color: rgb(255, 255, 255);
+    margin-left: 45px;
+    margin-top: 930px;
+  }
+}
